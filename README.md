@@ -1,5 +1,7 @@
 # Shinobi Doorbird Plugin
 
+[![Build Status](https://travis-ci.org/mafischer/shinobi-doorbird-plugin.svg?branch=master)](http://travis-ci.org/hapijs/code)
+
 ## Requirements
 
 - [**Shinobi**](http://shinobi.video) (Needs to be installed and running your system)
