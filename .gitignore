@@ -1,0 +1,4 @@
+conf.json
+node_modules
+.idea
+test/coverage.html

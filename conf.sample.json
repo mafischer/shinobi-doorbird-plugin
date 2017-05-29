@@ -1,0 +1,15 @@
+{
+  "host": "localhost",
+  "port": 3000,
+  "shinobi-port": 80,
+  "db": {
+    "host": "127.0.0.1",
+    "user": "majesticflame",
+    "password": "",
+    "database": "ccio",
+    "port":3306
+  },
+  "recordTime": 120,
+  "events": ["doorbell","motionsensor","dooropen"],
+  "concurrencyThreshold": 10
+}
