@@ -1,9 +1,10 @@
 {
-  "host": "localhost",
+  "host": "Shinobi_ip_or_hostname",
   "port": 3000,
   "shinobi-port": 8080,
+  "key": "change_this_to_match_doorbird_plugin_key",
   "db": {
-    "host": "127.0.0.1",
+    "host": "localhost",
     "user": "majesticflame",
     "password": "",
     "database": "ccio",
