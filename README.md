@@ -12,7 +12,7 @@
 ### Plugin Auth
 Within your shinobi config, you will need to add a random string as a key for the doorbird plugin.
 ```
-"pluginsKey": {
+"pluginKeys": {
   "Doorbird": "change_this_to_something_very_random"
 }
 ```
