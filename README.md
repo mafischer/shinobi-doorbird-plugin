@@ -1,9 +1,10 @@
 # Shinobi Doorbird Plugin
 
-[![Build Status](https://travis-ci.org/mafischer/shinobi-doorbird-plugin.svg?branch=master)](http://travis-ci.org/hapijs/code)
+[![Build Status](https://travis-ci.org/mafischer/shinobi-doorbird-plugin.svg?branch=master)](https://travis-ci.org/mafischer/shinobi-doorbird-plugin)
 
 ## Requirements
 
+- [**Git**](https://git-scm.com/) Optional, needed for update script
 - [**Shinobi**](http://shinobi.video) (Needs to be installed and running your system)
 - [**node.js**](http://nodejs.org) and [**npm**](https://www.npmjs.com/) (also required by Shinobi, should be there already)
 - [**pm2**](http://pm2.keymetrics.io/) (also required by Shinobi, should be there already)
@@ -44,7 +45,7 @@ npm install
 
 Daemonize the plugin with pm2
 ```
-pm2 start lib/index.js --name doorbird
+pm2 start lib/index.js --name doorbird --wait-ready
 ```
 
 Save the daemon
