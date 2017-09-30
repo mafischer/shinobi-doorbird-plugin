@@ -3,3 +3,4 @@ node_modules
 .idea
 test/coverage.html
 .vscode
+.DS_Store

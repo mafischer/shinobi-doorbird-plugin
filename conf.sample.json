@@ -12,5 +12,11 @@
   },
   "recordTime": 120,
   "events": ["doorbell","motionsensor","dooropen"],
-  "concurrencyThreshold": 10
+  "concurrencyThreshold": 10,
+  "hue": {
+    "enabled": false,
+    "host": "add_your_hue_ip_here",
+    "userid": "add_your_hue_api_userid_here",
+    "light": "add_the_light_id#_here"
+  }
 }
