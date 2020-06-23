@@ -7,3 +7,5 @@ cache:
 install:
   - cp conf.sample.json conf.json
   - npm install
+test:
+  - npm test

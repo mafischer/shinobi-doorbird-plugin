@@ -4,7 +4,8 @@
   "description": "Doorbird plugin for Shinobi",
   "main": "lib/index.js",
   "scripts": {
-    "test": "lab -r html -o test/coverage.html"
+    "test": "mocha test --exit",
+    "start": "node lib/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,20 +22,21 @@
   },
   "homepage": "https://github.com/mafischer/shinobi-doorbird-plugin#readme",
   "dependencies": {
-    "async": "^2.4.1",
-    "boom": "^5.0.0",
-    "good": "^7.2.0",
-    "good-squeeze": "^5.0.2",
-    "hapi": "^16.1.1",
-    "joi": "^10.5.0",
-    "moment": "^2.18.1",
-    "mysql": "^2.13.0",
-    "pmx": "^1.2.0",
-    "request": "^2.81.0",
-    "socket.io-client": "^2.0.1"
+    "@hapi/boom": "^8.0.1",
+    "@hapi/good": "^8.2.4",
+    "@hapi/good-squeeze": "^5.2.1",
+    "@hapi/hapi": "^18.4.1",
+    "@hapi/joi": "^16.1.7",
+    "async": "^3.1.0",
+    "axios": "^0.19.0",
+    "aysnc": "0.0.1-security",
+    "mariadb": "^2.1.2",
+    "moment": "^2.24.0",
+    "pmx": "^1.6.7",
+    "socket.io-client": "^2.2.0"
   },
   "devDependencies": {
-    "code": "^4.0.0",
-    "lab": "^13.1.0"
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1"
   }
 }
