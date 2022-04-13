@@ -27,7 +27,7 @@
     "@hapi/good-squeeze": "^5.2.1",
     "@hapi/hapi": "^18.4.1",
     "@hapi/joi": "^16.1.7",
-    "async": "^3.1.0",
+    "async": "^3.2.2",
     "axios": "^0.21.2",
     "aysnc": "0.0.1-security",
     "mariadb": "^2.1.2",
